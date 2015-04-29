@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Datile</string>
+    <string name="app_name_datile">Datile</string>
+    <string name="app_urlserver">192.168.173.1:8080/prueba_tesis</string>
+    
+    <string name="actSplash_carga">Cargando...</string>
+    <string name="actSplash_titulo">DATILE APP</string>
+    
+    <string name="http_sincro">Sincronizando datos</string>    
+    <string name="actMenu_Sincronizar">Sincronizar</string>
+    <string name="actMenu_Evaluar">Evaluar</string>
+    <string name="actMenu_Resultados">Resultados</string>
+    
+    <string name="title_activity_act_menu">Menú</string>
+    <string name="title_activity_act_tipsinc">Sincronización</string>
+    <string name="title_activity_act_tipev">Evaluación</string>
+    <string name="title_activity_act_tipres">Resultados</string>
+    <string name="title_activity_act_result">Resultados</string>
+    <string name="title_activity_form_send">Información</string>
+</resources>

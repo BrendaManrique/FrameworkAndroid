@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+ 
+    <ImageView
+        android:id="@+id/resultlogo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="5px"
+        android:src="@drawable/graph" >
+    </ImageView>
+ 
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical">
+	    <TextView
+	        android:id="@+id/ritmlabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Respuesta"
+	        android:textSize="20dp" >
+	    </TextView>
+	
+	   <TextView
+	        android:id="@+id/ritmval"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Respuesta"
+	        android:textSize="15dp" >
+	    </TextView>
+	    
+	   <TextView
+	        android:id="@+id/rditmval"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Respuesta"
+	        android:textSize="15dp" >
+	    </TextView>
+	    
+    </LinearLayout>
+</LinearLayout>

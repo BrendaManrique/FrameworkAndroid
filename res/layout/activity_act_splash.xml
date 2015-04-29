@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bck"
+    android:gravity="center_horizontal"
+    tools:context=".ActSplash" >
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true"       
+         android:orientation="vertical" >
+
+         <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:contentDescription="@string/actSplash_titulo"
+             android:paddingBottom="15dp"
+             android:src="@drawable/datile_logo1" />
+
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:fontFamily="sans-serif-condensed"
+             android:lineSpacingExtra="12dp"
+             android:scaleX="2.5"
+             android:scaleY="2.5"
+             android:text="@string/actSplash_titulo"
+             android:textColor="#a8a8a8"
+             android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:scaleX="1.0"
+             android:scaleY="1.0"
+             android:text="@string/actSplash_carga" />
+
+     </LinearLayout>
+ 
+</RelativeLayout>
+
